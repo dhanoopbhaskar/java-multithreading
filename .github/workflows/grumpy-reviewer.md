@@ -2,6 +2,7 @@
 description: Performs critical code review with a focus on edge cases, potential bugs, and code quality issues
 
 on:
+  workflow_dispatch:
   slash_command:
     name: grumpy
     events: [pull_request_comment, pull_request_review_comment]
